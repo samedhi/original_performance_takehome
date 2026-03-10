@@ -1,5 +1,21 @@
 # Anthropic's Original Performance Take-Home
 
+## My Result: 1157 cycles (127.7x speedup)
+
+| Metric | Value |
+|--------|-------|
+| Cycles | 1,157 |
+| Baseline | 147,734 |
+| Speedup | 127.7x |
+| VALU utilization | 97.6% |
+| Submission tests | 9/9 passing |
+
+This beats all published Claude benchmarks including Opus 4.5's best of 1,363 cycles after many hours in an improved test-time compute harness.
+
+For a short writeup of the optimization journey, see my [blog post](http://localhost:3000/posts-output/2026-03-09-anthropic-performance-takehome-writeup/). For the full transcript of every prompt I sent to Claude, see the [performance timeline](https://stephencagle.dev/html/performance-timeline).
+
+---
+
 This repo contains a version of Anthropic's original performance take-home, before Claude Opus 4.5 started doing better than humans given only 2 hours.
 
 The original take-home was a 4-hour one that starts close to the contents of this repo, after Claude Opus 4 beat most humans at that, it was updated to a 2-hour one which started with code which achieved 18532 cycles (7.97x faster than this repo starts you). This repo is based on the newer take-home which has a few more instructions and comes with better debugging tools, but has the starter code reverted to the slowest baseline. After Claude Opus 4.5 we started using a different base for our time-limited take-homes.
