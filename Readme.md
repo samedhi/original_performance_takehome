@@ -12,7 +12,7 @@
 
 This beats all published Claude benchmarks including Opus 4.5's best of 1,363 cycles after many hours in an improved test-time compute harness.
 
-For a short writeup of the optimization journey, see my [blog post](http://localhost:3000/posts-output/2026-03-09-anthropic-performance-takehome-writeup/). For the full transcript of every prompt I sent to Claude, see the [performance timeline](https://stephencagle.dev/html/performance-timeline).
+For a short writeup of the optimization journey, see my [blog post](https://stephencagle.dev/posts-output/2026-03-09-anthropic-performance-takehome-writeup/). For the full transcript of every prompt I sent to Claude, see the [performance timeline](https://stephencagle.dev/html/performance-timeline).
 
 ---
 
